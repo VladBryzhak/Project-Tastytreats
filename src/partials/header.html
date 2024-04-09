@@ -1,13 +1,79 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="page-header" id="home">
+  <div class="page-header-container container">
+    <nav class="page-nav">
+      <ul class="menu list">
+        <li class="menu-item">
+          <a class="link menu-link" href="./index.html">Home</a>
+        </li>
+        <li class="menu-item">
+          <a class="link menu-link registration-fav-btn" href="./favorite.html">Favorites</a>
+        </li>
+      </ul>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <a class="link logo" href="./index.html" title="logotype">
+        <span><span class="logo-text">tasty</span>treats.</span>
+      </a>
+    </nav>
+
+    <div class="header-chart-and-switcher-container">
+      <button type="button"
+        class="header-chart-link">
+        <svg class="header-chart-icon ord-btn" width="24" height="24">
+          <use href="./img/icons.svg#cart"></use>
+        </svg>
+      </button>
+
+      <label class="desktop-switch switch">
+        <input type="checkbox" id="theme-toggle-1" class="theme-toggle"/>
+        <span class="theme-slider"></span>
+      </label>
+
+      <button type="button" class="registration-btn">
+        <svg class="registration-btn-icon" width="26" height="26">
+          <use href="./img/icons.svg#acc-icon"></use>
+        </svg>
+      </button>
+
+      <button type="button" class="mobile-menu-open js-open-menu">
+        <svg class="mobile-menu-open-icon" width="32" height="32">
+          <use href="./img/icons.svg#burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+
+  <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu-container">
+      <button type="button" class="modal-close-btn js-close-menu hidden">
+        <svg class="mobile-menu-close-icon">
+          <use href="./img/icons.svg#close-icon"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-list-item">
+          <a
+            class="link mobile-menu-link menu-link js-close-menu"
+            href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li class="mobile-menu-list-item">
+          <a
+            class="link mobile-menu-link menu-link js-close-menu  registration-fav-btn"
+            href="./favorite.html"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+
+      <label class="mobile-switch switch">
+        <input type="checkbox" id="theme-toggle-2" class="theme-toggle"/>
+        <span class="theme-slider"></span>
+      </label>
+
+    </div>
+  </div>
 </header>
