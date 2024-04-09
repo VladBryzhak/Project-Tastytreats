@@ -16,7 +16,7 @@ orderBtn.addEventListener('click', orderNow);
   function orderNow() {
   const content = `
       <div class="modal">
-      <h4 class="ord-title">Order now</h4>
+      <h4 class="ord-title">Share now</h4>
         <form class="order-form">
           <label for="ord-name" class="label">Name
             <input required type="text" class="input" id="ord-name" name="ord-name" />

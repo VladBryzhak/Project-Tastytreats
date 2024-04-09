@@ -1,7 +1,7 @@
 import * as basicLightbox from 'basiclightbox';
 import footerImg from '../img/anonimus.jpg'
 
-const titleBtn = document.querySelector('.footer-title');
+const titleBtn = document.querySelector('.footer-titl');
 
 titleBtn.addEventListener('click', () => {
   const content = `

@@ -31,6 +31,7 @@
 }
 
 .menu-link {
+  font-size: 14px;
   outline: none;
   transition: color var(--transition-dur-timing-func);
 }
