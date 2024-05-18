@@ -114,21 +114,7 @@ export function openRatingModal(indeficator) {
         return elements.counter.textContent= `${index + 1}.0`
       }
     });
-    // for (let i = 0; i < modalInput.length; i += 1) {
-    //   if (evt.target !== modalInput[i]) {
-    //     modalStar[i].classList.replace(
-    //       'modal-rating-star',
-    //       'modal-rating-star-active'
-    //     );
-    //   } else {
-    //     modalStar[i].classList.replace(
-    //       'modal-rating-star',
-    //       'modal-rating-star-active'
-    //     );
-    //     return elements.counter.textContent = `${modalInput[i].value}.0`;
-
-    //   }
-    // }
+    
   }
 
   function replaceStar() {
@@ -169,13 +155,7 @@ export function openRatingModal(indeficator) {
       Notiflix.Notify.warning('All fields required');
       return;
     }
-    // const emailPattern ='/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}/';
-    // if(emailPattern !== elements.mail.value){
-    //   Notiflix.Notify.warning('Invalid Credentials of email');
-    //   return;
-    // }else{
-    //   Notiflix.Notify.success('Your rate was add!');
-    // }
+    
     patchRating(indeficator, elements.mail.value)
       .then(post => {
         Notiflix.Notify.success('Your rate was add!');

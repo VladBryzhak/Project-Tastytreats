@@ -47,7 +47,7 @@ function categoriesContainerHandler (e) {
     })
   }
   
-zeroPagination()  //переносить клас selected на першу позицію добавив Чуйков Роман
+zeroPagination() 
 }
 
 // //////////////

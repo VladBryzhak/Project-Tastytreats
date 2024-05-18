@@ -137,21 +137,6 @@ button.addEventListener('click', (e) => {
       const loginName = document.querySelector('.login-name');
       const loginPassword = document.querySelector('.login-password');
 
-      /* ----------- НІК БЛЯХА ТИ БАЛБЕС ----------- */
-
-      // const showPassword = document.querySelector('.show-password')
-
-    //   showPassword.addEventListener('click', () => {
-    //     if (loginPassword.type === 'password') {
-    //         loginPassword.type = 'text';
-    //     } else {
-    //         loginPassword.type = 'password';
-    //     }
-    // });
-
-    // НА ЦЬОМУ ЛОМАЄТЬСЯ ВЕСЬ КОД
-
-/* ----------- НІК БЛЯХА ТИ БАЛБЕС ----------- */
 
       const storedUser = JSON.parse(localStorage.getItem('login-info'));
 
